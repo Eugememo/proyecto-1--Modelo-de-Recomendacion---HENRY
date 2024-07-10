@@ -39,4 +39,5 @@ En el archivo "Modelo de recomendación" se encuentra la guía detallada de cóm
 
 ## Etapas del Proyecto
 Link a la aplicación: https://proyecto-1-modelo-de-recomendacion-henry-tg0c.onrender.com
+Link a video de YouTube: https://youtu.be/CcI-eettW-U
 
