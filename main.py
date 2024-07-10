@@ -18,8 +18,6 @@ def Home():
     return "Bienvenidos a la APP de consultas de películas. Para continuar a la API de consulta agregar /docs al final de la url."
 
 df_movies = pd.read_parquet('datasets/movies_limpio.parquet')
-#df_credit_crew = pd.read_parquet('datasets/credit_crew_limpio.parquet')
-#df_credit_cast = 'datasets/credit_cast_limpio.parquet'
 df_tags = pd.read_parquet('datasets/tags_ML.parquet')
 
 
@@ -239,9 +237,6 @@ def get_director(nombre_director: str):
         print(f"Ganancia: {info['Ganancia']}")
         print(f"Presupuesto: {info['Presupuesto']}")
         print()
-    
-    #del df_credit_crew
-    #gc.collect()
 
     return {
         "exito_total": exito,
@@ -251,8 +246,6 @@ def get_director(nombre_director: str):
 
 @app.get("/recomendacion/{titulo}",  tags=['Modelo de Recomendación'])
 def recomendacion(titulo:str):
-
-    #df_tags = pd.read_parquet('datasets/tags_ML.parquet')
 
     stop_words = 'english'
     cv = CountVectorizer(stop_words=stop_words)
