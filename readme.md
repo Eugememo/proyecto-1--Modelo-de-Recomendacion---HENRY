@@ -10,7 +10,7 @@ Tabla de Contenidos:
 1. [Introducción](#introducción)
 2. [Conjunto de datos](#conjunto-de-datos)
 3. [Etapas del Proyecto](#etapas-del-proyecto)
-4. Creación de funciones
+4. [Links](#Links)
 
 ## Conjunto de datos
 Para el proyecto HENRY nos proporcionó 2 archivos CSV para desarollar el análisis y el Modelo de recomendación posterior. 
@@ -36,5 +36,7 @@ Se realizó un análisis comprensivo de los datos para entender la estructura y 
 ### 4. Modelo de recomendación
 En el archivo "Modelo de recomendación" se encuentra la guía detallada de cómo se diseñó y desarrolló el modelo de recomendación. Este documento incluye una descripción de los pasos seguidos, desde la recopilación y preparación de datos hasta la implementación del algoritmo de recomendación. Además, se documentan los criterios y métricas utilizados para evaluar la efectividad del modelo, proporcionando una visión integral del proceso de creación del sistema de recomendación.
 
+
+## Etapas del Proyecto
 Link a la aplicación: https://proyecto-1-modelo-de-recomendacion-henry-tg0c.onrender.com
 
